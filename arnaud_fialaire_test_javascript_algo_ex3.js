@@ -60,7 +60,7 @@ function displayError() {
 
         console.log(errorsD);
     } else {
-        document.body.innerHTML = document.body.innerHTML + "<p>The table is correct.</p>";
+        document.body.innerHTML = document.body.innerHTML + "<p>-->The table is correct.</p>";
     }
 }
 F31();
