@@ -32,8 +32,8 @@ function F12() {
         }
         sudoku_grid = sudoku_grid + "</tr>";
     }
-    sudoku_grid += "</table>";
-    document.body.innerHTML += sudoku_grid;
+    sudoku_grid = sudoku_grid + "</table>";
+    document.body.innerHTML = document.body.innerHTML + sudoku_grid;
 }
 F11();
 F12();
